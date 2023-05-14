@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top scrolled py-3 px-2 px-md-0">
+    <nav class="navbar navbar-expand-md fixed-top py-3 px-2 px-md-0">
       <div class="container">
         <a class="navbar-brand fs-3 fw-semibold text-dark" href="#">Vienze</a>
         <button
@@ -31,10 +31,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mt-sm-3 mt-md-0 mt-3 fw-medium">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Work</a>
@@ -61,7 +61,7 @@
             <h2 class="fs-1 fw-semibold">I'm a <span id="typed"></span></h2>
             <div class="cta mt-5 d-md-flex">
               <div
-                class="col-md-4 col-4 btn btn-dark p-1 p-md-2 fw-semibold ls-1 border border-4 border-dark"
+                class="col-md-4 col-4 btn btn-dark p-1 p-md-2 fw-semibold border border-4 border-dark"
               >
                 Hire me
               </div>
@@ -83,6 +83,76 @@
       </div>
     </section>
     <!-- end home -->
+
+    <!-- about -->
+    <section id="about" class="about px-2 px-md-0">
+      <div class="container">
+        <!-- title section -->
+        <div class="row mb-5">
+          <div class="col text-start">
+            <h1 class="title-section text-dark fs-2 fw-semibold d-inline">
+              About me
+            </h1>
+          </div>
+        </div>
+        <!-- end title section -->
+
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="fs-5 fw-regular text-dark lh-base">
+              Hello, I'm Herudin, a junior frontend developer with a great
+              passion for technology, particularly in web development. I'm
+              always enthusiastic about learning the latest technology and
+              creating creative solutions to tackle challenges in the world of
+              web development.
+            </p>
+            <p class="fs-5 fw-regular text-dark">
+              Here are the skill I learned:
+            </p>
+            <div class="row fs-5 skill mb-4 mb-md-0">
+              <div class="col">
+                <ul class="list-group fw-medium">
+                  <li class="list-group-item">HTML</li>
+                  <li class="list-group-item">CSS</li>
+                  <li class="list-group-item">JavaScript</li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-group fw-medium">
+                  <li class="list-group-item">Bootstrap 5</li>
+                  <li class="list-group-item text-secondary">NodeJS</li>
+                  <li class="list-group-item text-secondary">Python</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center mt-5 mt-md-0"
+          >
+            <img
+              src="assets/images/chaeyoung.png"
+              alt="profile"
+              class="img-fluid about-img rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <button
+      class="btn btn-link"
+      data-toggle="collapse"
+      href="#spoiler"
+      role="button"
+      aria-expanded="false"
+      aria-controls="spoiler"
+    >
+      Spoiler Alert!
+    </button>
+    <div class="collapse" id="spoiler">
+      <div class="card card-body">The butler did it.</div>
+    </div>
+
+    <!-- end about -->
 
     <!-- bootstrap js -->
     <script src="assets/library/js/bootstrap.min.js"></script>
