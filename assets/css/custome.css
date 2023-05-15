@@ -14,7 +14,6 @@ body {
   font-family: "Inter", sans-serif !important;
   background-color: var(--white);
   color: var(--dark) !important;
-  height: 3000px;
 }
 
 /* reuse */
@@ -172,6 +171,38 @@ section {
   font-weight: 500;
 }
 
+.border-blue {
+  border-color: var(--blue-50) !important;
+}
+
+/* work */
+.overlay {
+  background-color: var(--white-50);
+  backdrop-filter: blur(0.2rem);
+  padding: 2rem;
+  opacity: 0;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.work-box:hover .overlay {
+  opacity: 1;
+}
+
+/* contact */
+
+.btn-contact {
+  color: var(--dark) !important;
+  background-color: var(--white) !important;
+}
+.btn-contact:hover {
+  color: var(--white) !important;
+}
+
+.btn-contact::before {
+  background-color: var(--dark) !important;
+}
+
 @media (max-width: 992px) {
   /* about */
   .fs-md-6 {
@@ -202,10 +233,4 @@ section {
   .home-img {
     animation: none;
   }
-
-  .about-img {
-    width: fit-content;
-  }
-
-  /* about */
 }
