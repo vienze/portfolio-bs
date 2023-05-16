@@ -7,7 +7,7 @@ window.onscroll = () =>
 
 // typed js home section
 var typed = new Typed("#typed", {
-  strings: ["Frontend Developer", "Graphic Designer"],
+  strings: ["Frontend Developer", "Canva Designer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 200,
