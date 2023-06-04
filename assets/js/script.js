@@ -7,7 +7,7 @@ window.onscroll = () =>
 
 // typed js home section
 var typed = new Typed("#typed", {
-  strings: ["Frontend Developer", "Canva Designer"],
+  strings: ["Frontend Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 200,
@@ -15,3 +15,11 @@ var typed = new Typed("#typed", {
   fadeOut: false,
   loop: true,
 });
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-7FB975CG92");
